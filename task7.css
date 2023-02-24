@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-image:url(imags/index.png) ;
+}
+
+
+
+
+
+
+.navbar{
+    display: flex;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+}
+.language-flag{
+
+
+    border-radius: 50%;
+    object-fit: cover;
+    border-style: solid;
+    border-color: white;
+     height: 25px;
+     width: 25px;
+}
+
+
+
+
+.navbar li{
+    margin-right: 30px;
+}
+   .navbar-brand{
+    margin-right: 80px;
+   }
+.navbar ul li {
+ display: inline-block;
+ list-style: none;
+ margin-right: 20px;
+
+}
+
+.hero-area{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #1f1f1f;
+    margin-bottom: 10px;
+}
+.hero-area .imageleft{
+align-items: left;
+}
+.p-2{
+    padding: 1.5rem;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+.hero-area{
+    background-image: url(imags/index.png);
+    
+}
+
+h1{
+    margin: auto;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 3.1;
+    letter-spacing: 1px;
+}
+h2{
+    display: flex;
+    margin: 40px 20;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 3.1;
+    letter-spacing: 1px;
+
+}
+.btn{
+    margin-right: 60px;
+}
+p{
+    display: flex;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 3.1;
+    letter-spacing: 1px;
+}
+.content{
+    padding-right: 80px;
+}
+.content h1{
+    padding-right: 80px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 3.1;
+    letter-spacing: 1px;
+}
+.content p{
+    padding-right: 80px;
+}
+
+.content-area-2{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+
+    
+}
+
+
+
+
+footer{
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    box-sizing: border-box;
+    background-color: #DDF7EA;
+    padding-bottom: 50px;
+    padding-top: 1.5rem;
+}
+.content-img{
+    left: 0;
+    
+
+}
+.content section h2{
+    right: 0;
+    text-align: right;
+     align-items: left;
+}
+.section-title{
+    text-align: center;
+}
